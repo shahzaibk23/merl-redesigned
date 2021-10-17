@@ -30,3 +30,8 @@ body {
   background-color: rgb(255,255,255);
 }
 
+.normal-section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
