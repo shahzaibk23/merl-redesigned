@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>merl-redesigned</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/4-Column-Team-Block---Circles.css">
+    <link rel="stylesheet" href="assets/css/Advanced-NavBar---Multi-dropdown.css">
+    <link rel="stylesheet" href="assets/css/animated-services.css">
+    <link rel="stylesheet" href="assets/css/featured-products-slider-1.css">
+    <link rel="stylesheet" href="assets/css/featured-products-slider-2.css">
+    <link rel="stylesheet" href="assets/css/featured-products-slider.css">
+    <link rel="stylesheet" href="assets/css/footer-servitech.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/project-card.compiled.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.compiled.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Swiper-Slider-Card-For-Blog-Or-Product-1-1.css">
+    <link rel="stylesheet" href="assets/css/Swiper-Slider-Card-For-Blog-Or-Product-2.css">
+    <link rel="stylesheet" href="assets/css/Team-one-B4-1.css">
+    <link rel="stylesheet" href="assets/css/Team-one-B4.css">
+    <link rel="stylesheet" href="assets/css/Team-Presentation---2-Persons---Social-Media-Icon.css">
+</head>
+
+<body>
+    <section>
+        <div data-bss-parallax-bg="true" style="background: linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2)), url(&quot;assets/img/project3.jpg&quot;) center / cover;height: 100vh;">
+            <div class="container" style="padding-top: 40vh;text-align: center;">
+                <h1 style="color: rgb(255,255,255);font-size: 50px;">Our Projects</h1>
+            </div>
+        </div>
+    </section>
+    <section style="padding-top: 100px;">
+
+
+<section class="clean-block project-card-section">
+<div class="recipe-card">
+    <div id="recipe-card__cover" class="recipe-card__cover">
+      <div class="recipe-card__img">
+        <img
+          src="assets/img/project.jpg"
+          alt="Blueberry French Toast">
+      </div>
+      <div class="recipe-card__cover-details">
+        <div id="recipe-card__duration" class="recipe-card__duration">
+          <p><span>30</span>mins</p>
+        </div>
+        <div id="recipe-card__servings" class="recipe-card__servings">
+          <p><span>8</span>servings</p>
+        </div>
+        <div id="recipe-card__info" class="recipe-card__info">
+          <div class="recipe-card__title">
+            <h1>Project Project Project</h1>
+          </div>
+          <div class="recipe-card__description">
+            <p>Project project project project project project project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div id="recipe-card__content-container" class="recipe-card__content-container">
+      <div class="recipe-card__actions">
+        <ul>
+          <li><a id="ingredientsTab" href="#" class="active">Description</a></li>
+          <li><a id="preparationsTab" href="#">Team</a></li>
+        </ul>
+      </div>
+      <div id="recipe-card__content--ingredients" class="recipe-card__content recipe-card__content--active">
+        <ul>
+          <span>CATEGORY:</span>
+          <li> details</li>
+          <li> details</li>
+          <li> details</li>
+          <li> details</li>
+          <li> details</li>
+        </ul>
+        <ul>
+          <span>MENTOR:</span>
+          <li>mentor</li>
+          
+        </ul>
+      </div>
+      <div id="recipe-card__content--preparations" class="recipe-card__content">
+        <ul class="preparation-steps">
+          <li>member</li>
+          <li>member</li>
+          <li>member</li>
+          <li>member</li>
+        
+
+</script>
+<script>
+    const recipeCardCover = document.getElementById('recipe-card__cover');
+const recipeCardInfo = document.getElementById('recipe-card__info');
+const recipeCardDuration = document.getElementById('recipe-card__duration');
+const recipeCardServings = document.getElementById('recipe-card__servings');
+const recipeCardContentContainer = document.getElementById('recipe-card__content-container');
+const ingredientsTab = document.getElementById('ingredientsTab');
+const preparationsTab = document.getElementById('preparationsTab');
+const ingredientsContent = document.getElementById('recipe-card__content--ingredients');
+const preparationsContent = document.getElementById('recipe-card__content--preparations');
+
+recipeCardCover.addEventListener('click', () => {
+  recipeCardCover.classList.toggle('recipe-card__cover--open');
+  recipeCardContentContainer.classList.toggle('recipe-card__content-container--open')
+  recipeCardInfo.classList.toggle('recipe-card__info--show');
+  recipeCardDuration.classList.toggle('recipe-card__duration--show');
+  recipeCardServings.classList.toggle('recipe-card__servings--show');
+})
+
+ingredientsTab.addEventListener('click', (e) => {
+  e.preventDefault();
+  ingredientsTab.classList.add('active');
+  preparationsTab.classList.remove('active');
+  ingredientsContent.classList.add('recipe-card__content--active');
+  preparationsContent.classList.remove('recipe-card__content--active');
+})
+
+preparationsTab.addEventListener('click', (e) => {
+  e.preventDefault();
+  ingredientsTab.classList.remove('active');
+  preparationsTab.classList.add('active');
+  ingredientsContent.classList.remove('recipe-card__content--active');
+  preparationsContent.classList.add('recipe-card__content--active');
+})
+</script>rd__content--active');
+})
+</script></script></section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/-Animated-numbers-section-BS4-.js"></script>
+    <script src="assets/js/Advanced-NavBar---Multi-dropdown.js"></script>
+    <script src="assets/js/featured-products-slider.js"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/Swiper-Slider-Card-For-Blog-Or-Product.js"></script>
+</body>
+
+</html>
